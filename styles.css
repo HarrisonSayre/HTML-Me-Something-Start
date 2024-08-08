@@ -1,14 +1,56 @@
 /* Write your CSS here! */
 
 body{
-    margin: 8px;
-    display: block;
+  background-image: url('./images/backgroundpaper.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8px;
+  display: block;
+  font-size: 2.6em;
+  max-width: 2048px;
+}
+
+
+figure{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+figcaption {
+  font-style: italic;
+  font-family:'Courier New';
+}
+
+body p1{
+  font-family:'Courier New';
+} 
+
+body h1{
+  font-family:'Courier New';
+} 
+
+body h2{
+  font-family:'Courier New';
+} 
+
+ul{
+  font-family:'Courier New';
+}
+
+header h1 {
+	text-align: center;
 }
 
 .funParagraph{
-    color: green;
+  color: green;
 }
 
 #mainHeading{
-    color: red;
+  color: red;
+}
+
+footer{
+  text-align: center;
 }
